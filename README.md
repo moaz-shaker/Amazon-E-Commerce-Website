@@ -1,3 +1,6 @@
+
+Live Preview - [Click Here](https://amazon-e-commerce-website.vercel.app/home)
+
 # Amazon E-Commerce Website 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
