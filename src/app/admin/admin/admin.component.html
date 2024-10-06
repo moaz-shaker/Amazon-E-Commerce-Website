@@ -1,0 +1,17 @@
+<div class="admin-container">
+    <h1>Admin Dashboard</h1>
+    <mat-card *ngFor="let product of products">
+      <mat-card-title>{{ product.name }}</mat-card-title>
+      <mat-card-content>{{ product.price }}</mat-card-content>
+      <mat-card-content>{{ product.id }}</mat-card-content>
+      <mat-card-content>{{ product.category }}</mat-card-content>
+      <mat-card-content>{{ product.rating }}</mat-card-content>
+      <mat-card-content>{{ product.count }}</mat-card-content>
+      <mat-card-content>{{ product.image }}</mat-card-content>
+      <mat-card-content>{{ product.description }}</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button (click)="editProduct(product)">Edit</button>
+        <button mat-raised-button (click)="deleteProduct(product)">Delete</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

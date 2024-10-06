@@ -1,0 +1,5 @@
+<div class="subtotal" *ngIf="shoppingCart.getCartLength() > 0">
+    <p>Subtotal: ({{shoppingCart.getCartLength()}} items) 
+        <strong>${{shoppingCart.getTotal()}}</strong></p>
+    <button>Buy now</button>
+</div>

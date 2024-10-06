@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "PlayStation 5 Console",
+        "desc": "Sony PlayStation 5 Console With DualSense Wireless Controller: Lightning-Fast Loading, Ray Tracing, 4K-TV Gaming, Ultra-High-Speed SSD",
+        "price": 499.99,
+        "image": "https://m.media-amazon.com/images/I/619BkvKW35L._SL1500_.jpg",
+        "ratings": 5
+    },
+    {   
+        "id": 2,
+        "title": "Apple iPhone 14 Pro",
+        "desc": "Apple iPhone 14 Pro With A16 Bionic Chip, 6.1-inch Super Retina XDR Display, 128GB, Triple Camera, 5G",
+        "price": 1099.00,
+        "image": "https://m.media-amazon.com/images/I/61HHS0HrjpL._SL1500_.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 3,
+        "title": "Samsung Galaxy S23 Ultra",
+        "desc": "Samsung Galaxy S23 Ultra With 6.8-inch Dynamic AMOLED Display, 12GB RAM, 512GB Storage, Quad Camera, 5G",
+        "price": 1299.99,
+        "image": "https://m.media-amazon.com/images/I/71DMZEvfSVL._AC_SX679_.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 4,
+        "title": "Dell XPS 13 Laptop",
+        "desc": "Dell XPS 13 Laptop With 13.4-inch 4K UHD Touchscreen, Intel i7 Processor, 16GB RAM, 512GB SSD, Windows 11",
+        "price": 1399.99,
+        "image": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+        "ratings": 4.5
+    },
+    {
+        "id": 5,
+        "title": "Bose Noise Cancelling Headphones 700",
+        "desc": "Bose Noise Cancelling Wireless Bluetooth Headphones 700, Over-Ear, With Microphone, Alexa and Google Assistant",
+        "price": 379.00,
+        "image": "https://m.media-amazon.com/images/I/61BP0d2-0AL.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 6,
+        "title": "Apple MacBook Air M2",
+        "desc": "Apple MacBook Air Laptop With M2 Chip, 13.6-inch Retina Display, 8GB RAM, 256GB SSD, macOS",
+        "price": 1199.00,
+        "image": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SL1500_.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 7,
+        "title": "Fitbit Charge 5",
+        "desc": "Fitbit Charge 5 Advanced Fitness & Health Tracker, Built-in GPS, Stress Management, Sleep Tools",
+        "price": 149.95,
+        "image": "https://m.media-amazon.com/images/I/51qYvELgHKL.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "ratings": 4.3
+    },
+    {
+        "id": 8,
+        "title": "Oculus Quest 2",
+        "desc": "Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset — 128GB",
+        "price": 299.00,
+        "image": "https://m.media-amazon.com/images/I/615YaAiA-ML._SL1500_.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 9,
+        "title": "Sony WH-1000XM5 Headphones",
+        "desc": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones, Over-Ear, 30 Hours Battery Life, Alexa Enabled",
+        "price": 398.00,
+        "image": "https://m.media-amazon.com/images/I/6169m-oKFEL.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 10,
+        "title": "Roku Streaming Stick 4K",
+        "desc": "Roku Streaming Stick 4K With Voice Remote, Long-Range Wireless, 4K, Dolby Vision, HDR10+",
+        "price": 49.99,
+        "image": "https://m.media-amazon.com/images/I/41CDVUEx6DL._AC_UL640_FMwebp_QL65_.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 11,
+        "title": "Microsoft Surface Pro 9",
+        "desc": "Microsoft Surface Pro 9 - 13-inch Touchscreen, Intel i7, 16GB RAM, 512GB SSD, Windows 11",
+        "price": 1599.00,
+        "image": "https://m.media-amazon.com/images/I/61Dv5mkG7fL._AC_UL640_FMwebp_QL65_.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 12,
+        "title": "Nikon Z6 II Mirrorless Camera",
+        "desc": "Nikon Z6 II FX-Format Mirrorless Camera Body, 24.5 MP, 4K UHD Video, Dual Card Slots",
+        "price": 1996.95,
+        "image": "https://m.media-amazon.com/images/I/71IYLfcyMbL.__AC_SY300_SX300_QL70_ML2_.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 13,
+        "title": "KitchenAid Stand Mixer",
+        "desc": "KitchenAid Artisan Series 5-Quart Stand Mixer, With Pouring Shield, 10 Speeds, Tilt-Head",
+        "price": 449.99,
+        "image": "https://m.media-amazon.com/images/I/71EYAzjquDL._AC_UL640_FMwebp_QL65_.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 14,
+        "title": "Instant Pot Duo 7-in-1",
+        "desc": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, Slow Cooker, Rice Cooker, Steamer, Sauté, Yogurt Maker",
+        "price": 89.99,
+        "image": "https://m.media-amazon.com/images/I/61YwKowEQuL._AC_UL640_FMwebp_QL65_.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 15,
+        "title": "Dyson V15 Detect Vacuum Cleaner",
+        "desc": "Dyson V15 Detect Cordless Vacuum Cleaner, Laser Illumination, 60 Minutes of Runtime, Whole-Machine HEPA Filtration",
+        "price": 749.99,
+        "image": "https://m.media-amazon.com/images/I/61vFezEa8HL.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 16,
+        "title": "GoPro HERO11 Black",
+        "desc": "GoPro HERO11 Black - Waterproof Action Camera With 5.3K60 Ultra HD Video, 23MP Photos, Live Streaming, HyperSmooth 5.0",
+        "price": 499.99,
+        "image": "https://m.media-amazon.com/images/I/61dUta09HGL._AC_UL640_FMwebp_QL65_.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 17,
+        "title": "Echo Dot (5th Gen)",
+        "desc": "Echo Dot (5th Gen) With Clock, Smart Speaker With Alexa, Improved Sound, And LED Display",
+        "price": 59.99,
+        "image": "https://m.media-amazon.com/images/I/41xSYxOLcdL._AC_UL736_FMwebp_QL65_.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 18,
+        "title": "Nespresso VertuoPlus Coffee and Espresso Maker",
+        "desc": "Nespresso VertuoPlus Deluxe Coffee and Espresso Maker With Aeroccino, By De'Longhi",
+        "price": 189.00,
+        "image": "https://m.media-amazon.com/images/I/71a4UVXJUXL._AC_UL640_FMwebp_QL65_.jpg",
+        "ratings": 4.6
+    }
+]

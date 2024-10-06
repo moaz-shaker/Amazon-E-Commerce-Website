@@ -1,0 +1,55 @@
+.admin-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  mat-card {
+    margin-bottom: 20px;
+  }
+  
+  mat-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  mat-card-content {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button.mat-raised-button {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.mat-raised-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button.mat-raised-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

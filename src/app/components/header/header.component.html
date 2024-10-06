@@ -1,0 +1,41 @@
+<div class="header">
+    <nav class="header_top">
+      <div class="header_menu">
+        <div routerLink="/" class="header_menu_icon">
+          <mat-icon>menu</mat-icon>
+        </div>
+        <img routerLink="/" src="https://pngimg.com/d/amazon_PNG11.png" class="header_menu_logo" alt="" />
+      </div>
+      <div class="header_menu_searchbar">
+        <input type="text" class="header_menu_searchbar_input" (input)="searchProduct($event)" />
+        <div class="header_menu_searchbar_Icon">
+          <mat-icon>search</mat-icon> 
+        </div>
+      </div>
+      <div class="header_menu_signin" >
+        <span (click)="SignOut()" class="header_menu_top_item" *ngIf="auth.isLoggedIN()">Hello, {{auth.getUser()}}</span>
+        <span routerLink="/login" class="header_menu_top_item" *ngIf="!auth.isLoggedIN()">Hello,log in {{userName}}</span>
+        <span class="header_menu_bottom_item">Account & Lists</span>
+      </div>  
+      <div routerLink="/login" class="header_menu_signin" >
+        <span class="header_menu_top_item">Returns</span>
+        <span class="header_menu_bottom_item">& Orders</span>
+      </div>
+      <div routerLink="/checkout" class="header_menu_cart">
+        <mat-icon>shopping_cart</mat-icon>
+        <p class="header_cart_number">{{ShoppingCart.getCartLength()}}</p>
+      </div>
+    </nav>
+    <nav class="header_bottom">
+      <div class="header_bottom_location_text">
+        <span class="header_left_line_one">Deliver to </span>
+        <span class="header_left_line_two"><strong>Egypt</strong></span>
+      </div>
+    </nav>
+    <!-- Display search results -->
+    <div *ngIf="searchResults.length > 0" class="search-results">
+      <div *ngFor="let result of searchResults">
+        <p>{{ result.name }} - {{ result.details }}</p>
+      </div>
+    </div>
+</div>

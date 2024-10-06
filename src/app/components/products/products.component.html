@@ -1,0 +1,12 @@
+<div class="products">
+    <div class="product" *ngFor="let item of products"> 
+        <mat-card>
+            <p>{{item.title}}</p>
+            <p><strong>{{item.price}}</strong>  L.E</p>
+            <a [routerLink]="['/product', item.id]">
+                <img src="{{item.image}}" class="product-image" alt="">
+            </a>
+            <button (click)="addToCart(item)">Add to cart</button>
+        </mat-card>
+    </div>
+</div>

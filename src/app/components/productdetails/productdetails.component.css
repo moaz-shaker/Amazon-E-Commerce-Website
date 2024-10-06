@@ -1,0 +1,147 @@
+.cart-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  padding: 90px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(204, 63, 20);
+}
+
+.cart-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.product-card {
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  border: #ff4c15;
+  border-style: solid;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  margin-top: 10px;
+  border: #ff4c15;
+  border-style: solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.product-info p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.product-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-actions button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: #ff4c15;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-title{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff2f00;
+}
+
+.product-actions button:hover {
+  background-color: #00aa7d;
+}
+
+.remove-button {
+  background-color: #ca000d;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.remove-button:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* added media query to make the grid responsive */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 320px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.product-image {
+  transition: all 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
